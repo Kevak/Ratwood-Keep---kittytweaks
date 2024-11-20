@@ -198,6 +198,42 @@
 	effectedstats = list("speed" = 3)
 	duration = 1.5 MINUTES
 
+/atom/movable/screen/alert/status_effect/buff/bindfamiliarA
+	name = "Bound Familiar"
+	desc = "I have a Bound Familiar"
+	icon_state = "buff"
+
+/datum/status_effect/buff/bindfamiliarA
+	id = "bindfamiliarA"
+	alert_type = /atom/movable/screen/alert/status_effect/buff/bindfamiliarA
+	duration = 10 MINUTES
+
+/datum/status_effect/buff/bindfamiliarA/on_apply()
+	. = ..()
+	to_chat(owner, span_warning("I have bound a Familiar to myself."))
+
+/datum/status_effect/buff/bindfamiliarA/on_remove()
+	. = ..()
+	to_chat(owner, span_warning("I have lost my Familiar."))
+
+/atom/movable/screen/alert/status_effect/buff/bindfamiliarB
+	name = "Bound Familiar"
+	desc = "I am a Bound Familiar"
+	icon_state = "buff"
+
+/datum/status_effect/buff/bindfamiliarB
+	id = "bindfamiliarB"
+	alert_type = /atom/movable/screen/alert/status_effect/buff/bindfamiliarB
+	duration = 10 MINUTES
+
+/datum/status_effect/buff/bindfamiliarB/on_apply()
+	. = ..()
+	to_chat(owner, span_warning("I have been bound as a Familiar."))
+
+/datum/status_effect/buff/bindfamiliarA/on_remove()
+	. = ..()
+	to_chat(owner, span_warning("I am no longer a bound Familiar."))
+
 /datum/status_effect/buff/seelie_drugs
 	id = "seelie drugs"
 	alert_type = /atom/movable/screen/alert/status_effect/buff/druqks
