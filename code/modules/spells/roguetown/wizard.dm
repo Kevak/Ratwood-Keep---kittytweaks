@@ -1006,17 +1006,16 @@
 /obj/item/melee/touch_attack/bindfamiliar/afterattack(atom/target, mob/living/carbon/user, proximity)
 	if(isliving(target))
 		var/mob/living/spelltarget = target
+		if(user == target)
+			to_chat(user, span_warning("I cannot bind myself as a Familiar."))
+			return ..()
 		if(!do_after(user, 10 SECONDS, target = spelltarget))
 			return
 		user.rogfat_add(80)
 		if(spelltarget != user)
 			user.visible_message("[user] draws a glyph in the air and touches [spelltarget] with an arcyne focus.")
-			user.apply_status_effect(/datum/status_effect/buff/bindfamiliarA)
 			spelltarget.apply_status_effect(/datum/status_effect/buff/bindfamiliarB)
-		else
-			to_chat(user, span_notice("I cannot bind myself as a Familiar"))
-		attached_spell.remove_hand()
-	return
+			attached_spell.remove_hand()
 
 /obj/effect/proc_holder/spell/invoked/featherfall
 	name = "Featherfall"
