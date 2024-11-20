@@ -606,7 +606,7 @@
 	var/cooldown_time = 0
 	var/next_use_time = 0
 
-/datum/action/cooldown/New()
+/datum/action/cooldown/New(Target)
 	..()
 	button.maptext = ""
 	button.maptext_x = 8
