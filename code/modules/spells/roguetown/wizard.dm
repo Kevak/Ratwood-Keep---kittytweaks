@@ -976,47 +976,6 @@
 		attached_spell.remove_hand()
 	return
 
-/obj/effect/proc_holder/spell/targeted/touch/bindfamiliar
-	name = "Bind Familiar"
-	desc = "Offer to bind someone as your Familiar."
-	clothes_req = FALSE
-	drawmessage = "I prepare to bind a Familiar."
-	dropmessage = "I release my arcyne focus."
-	school = "transmutation"
-	charge_max = 2 MINUTES
-	chargedloop = /datum/looping_sound/invokegen
-	associated_skill = /datum/skill/magic/arcane
-	hand_path = /obj/item/melee/touch_attack/bindfamiliar
-	xp_gain = TRUE
-	cost = 2
-
-/obj/item/melee/touch_attack/bindfamiliar
-	name = "\improper arcyne focus"
-	desc = "Touch a creature to offer binding them as your Familiar."
-	catchphrase = null
-	possible_item_intents = list(INTENT_HELP)
-	icon = 'icons/mob/roguehudgrabs.dmi'
-	icon_state = "pulling"
-	icon_state = "grabbing_greyscale"
-	color = "#3FBAFD"
-
-/obj/item/melee/touch_attack/bindfamiliar/attack_self()
-	attached_spell.remove_hand()
-
-/obj/item/melee/touch_attack/bindfamiliar/afterattack(atom/target, mob/living/carbon/user, proximity)
-	if(isliving(target))
-		var/mob/living/spelltarget = target
-		if(user == target)
-			to_chat(user, span_warning("I cannot bind myself as a Familiar."))
-			return ..()
-		if(!do_after(user, 10 SECONDS, target = spelltarget))
-			return
-		user.rogfat_add(80)
-		if(spelltarget != user)
-			user.visible_message("[user] draws a glyph in the air and touches [spelltarget] with an arcyne focus.")
-			spelltarget.apply_status_effect(/datum/status_effect/buff/bindfamiliarB)
-			attached_spell.remove_hand()
-
 /obj/effect/proc_holder/spell/invoked/featherfall
 	name = "Featherfall"
 	desc = "Grant yourself and any creatures adjacent to you some defense against falls."
@@ -1109,6 +1068,50 @@
 	var/turf/target_turf = get_turf(targets[1])
 	new /mob/living/simple_animal/hostile/retaliate/rogue/wolf/familiar(target_turf, user)
 	return TRUE
+
+/obj/effect/proc_holder/spell/targeted/touch/bindfamiliar
+	name = "Bind Familiar"
+	desc = "Offer to bind someone as your Familiar."
+	clothes_req = FALSE
+	drawmessage = "I prepare to bind a Familiar."
+	dropmessage = "I release my arcyne focus."
+	school = "transmutation"
+	charge_max = 2 MINUTES
+	chargedloop = /datum/looping_sound/invokegen
+	associated_skill = /datum/skill/magic/arcane
+	hand_path = /obj/item/melee/touch_attack/bindfamiliar
+	xp_gain = TRUE
+	cost = 2
+
+/obj/item/melee/touch_attack/bindfamiliar
+	name = "\improper arcyne focus"
+	desc = "Touch a creature to offer binding them as your Familiar."
+	catchphrase = null
+	possible_item_intents = list(INTENT_HELP)
+	icon = 'icons/mob/roguehudgrabs.dmi'
+	icon_state = "pulling"
+	icon_state = "grabbing_greyscale"
+	color = "#3FBAFD"
+
+/obj/item/melee/touch_attack/bindfamiliar/attack_self()
+	attached_spell.remove_hand()
+
+/obj/item/melee/touch_attack/bindfamiliar/afterattack(atom/target, mob/living/carbon/user, proximity)
+	if(isliving(target))
+		var/mob/living/spelltarget = target
+		if(user == target)
+			to_chat(user, span_warning("I cannot bind myself as a Familiar."))
+			return ..()
+		if(!do_after(user, 10 SECONDS, target = spelltarget))
+			return
+		user.rogfat_add(80)
+		if(spelltarget != user)
+			user.visible_message("[user] draws a glyph in the air and touches [spelltarget] with an arcyne focus.")
+			spelltarget.apply_status_effect(/datum/status_effect/buff/bindfamiliarB)
+			attached_spell.remove_hand()
+	return
+
+
 
 
 
