@@ -31,6 +31,21 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 	plane = INDOOR_PLANE
 	converted_type = /area/rogue/outdoors
 
+/area/rogue/indoors/inbetween
+	name = "inbetween"
+	icon_state = "indoors"
+	ambientrain = null
+	ambientsounds = AMB_INGEN
+	ambientnight = AMB_INGEN
+	spookysounds = SPOOKY_GEN
+	spookynight = SPOOKY_GEN
+	droning_sound = 'sound/music/area/towngen.ogg'
+	droning_sound_dusk = 'sound/music/area/septimus.ogg'
+	droning_sound_night = 'sound/music/area/sleeping.ogg'
+	soundenv = 2
+	plane = INDOOR_PLANE
+	converted_type = /area/rogue/outdoors
+
 /area/rogue/indoors/banditcamp
 	name = "bandit camp indoors"
 

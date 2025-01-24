@@ -212,3 +212,7 @@
 	bound_width = 96
 	appearance_flags = NONE
 	opacity = FALSE
+
+/obj/structure/fluff/traveltile/inbetween
+	icon_state = null
+	icon = null
