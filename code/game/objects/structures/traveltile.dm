@@ -47,6 +47,7 @@
 	var/check_other_side = FALSE
 	var/invis_without_trait = FALSE
 	var/list/revealed_to = list()
+	var/instant = FALSE
 
 /obj/structure/fluff/traveltile/Initialize()
 	GLOB.traveltiles += src
@@ -133,6 +134,8 @@
 				to_chat(user, span_warning("I sense something off at the end of the trail."))
 				time2go = 7 SECONDS
 				break
+	if(instant == TRUE)
+		time2go = 1
 	if(!do_after(user, time2go, FALSE, target = src))
 		return
 	if(!can_go(user))
@@ -213,6 +216,96 @@
 	appearance_flags = NONE
 	opacity = FALSE
 
-/obj/structure/fluff/traveltile/inbetween
-	icon_state = null
-	icon = null
+
+/obj/structure/fluff/traveltile/silent
+	name = "silenttravel"
+	desc = ""
+	icon = 'icons/obj/structures.dmi'
+	icon_state = "invisstructure"
+	instant = TRUE
+
+/obj/structure/fluff/traveltile/silent/inbetweenmagos
+	name = "inbetweentravel"
+
+//turf teles are meant for nonelucidian smoke and mirrors mapping shenanigans but have obvious other uses
+
+/obj/structure/fluff/turfteleport
+	name = ""
+	desc = ""
+	density = FALSE
+	anchored = TRUE
+	layer = ABOVE_OPEN_TURF_LAYER
+	max_integrity = 0
+	var/aportalid = "REPLACETHIS"
+	var/aportalgoesto = "REPLACETHIS"
+	icon_state = "invisstructure"
+	icon = 'icons/obj/structures.dmi'
+	var/receiveonly = FALSE
+
+/obj/structure/fluff/turfteleport/Initialize()
+	GLOB.turfteleports += src
+	. = ..()
+
+/obj/structure/fluff/turfteleport/Destroy()
+	GLOB.turfteleports -= src
+	. = ..()
+
+/obj/structure/fluff/turfteleport/proc/get_other_end_turf(var/return_travel = FALSE)
+	if(!aportalgoesto)
+		return null
+	for(var/obj/structure/fluff/traveltile/travel in shuffle(GLOB.traveltiles))
+		if(travel == src)
+			continue
+		if(travel.aportalid != aportalgoesto)
+			continue
+		if(return_travel)
+			return travel
+		return get_turf(travel)
+	return null
+
+/obj/structure/fluff/turfteleport/attack_ghost(mob/dead/observer/user)
+	if(!user.Adjacent(src))
+		return
+	var/turf/target_loc = get_other_end_turf()
+	if(!target_loc)
+		to_chat(user, "<b>It is a dead end.</b>")
+		return
+	user.forceMove(target_loc)
+
+/obj/structure/fluff/turfteleport/proc/can_go(atom/movable/AM)
+	. = TRUE
+	if(AM.pulledby)
+		return FALSE
+	if(AM.recent_travel)
+		if(world.time < AM.recent_travel + 15 SECONDS) 
+			. = FALSE
+	return TRUE
+
+/obj/structure/fluff/turfteleport/Crossed(atom/movable/AM)
+	. = ..()
+	if(!isliving(AM))
+		return
+	var/mob/living/living = AM
+	if(living.stat != CONSCIOUS)
+		return
+	if(living.incapacitated())
+		return
+	// if it's in the same chain, it will actually stop a pulled thing being pulled, bandaid solution with a timer
+	addtimer(CALLBACK(src, PROC_REF(atom_try_tele), living), 1)
+
+/obj/structure/fluff/turfteleport/Entered(atom/movable/AM, atom/oldLoc)
+	. = ..()
+	atom_try_tele(AM)
+
+/obj/structure/fluff/turfteleport/proc/atom_try_tele(atom/movable/AM)
+	var/obj/structure/fluff/turfteleport/the_tile = get_other_end_turf(TRUE)
+	if(!get_turf(the_tile))
+		return
+	if(!can_go(AM))
+		return
+	if(AM.pulling)
+		AM.pulling.recent_travel = world.time
+	AM.recent_travel = world.time
+	if(istype(AM, /mob/living))
+		mob_move_travel_z_level(AM, get_turf(the_tile))
+	else AM.forceMove(the_tile)

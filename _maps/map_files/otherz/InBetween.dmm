@@ -1,83 +1,94 @@
-"af" = (/turf/open/floor/rogue/ruinedwood/turned,/area/rogue/outdoors/town)
-"au" = (/obj/structure/mineral_door/wood{icon_state = "wcv"; lockdiff = 3; locked = 1; lockid = "mage"},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/town/magician)
-"aU" = (/turf/open/floor/rogue/blocks,/area/rogue/outdoors/town)
-"cj" = (/obj/machinery/light/rogue/wallfire/candle/blue,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"ck" = (/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/town/magician)
-"cl" = (/turf/closed/wall/mineral/rogue/wooddark,/area/rogue/indoors/town/magician)
-"dk" = (/obj/structure/fluff/railing/border{dir = 1},/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/town/magician)
-"ec" = (/obj/structure/bookcase,/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/under/town/basement)
-"ey" = (/turf/closed/wall/mineral/rogue/stone,/area/rogue/indoors/town/magician)
-"eV" = (/obj/structure/roguemachine/scomm,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"fu" = (/obj/machinery/light/rogue/hearth,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue/indoors/town/magician)
-"fD" = (/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"fH" = (/obj/structure/stairs{dir = 4},/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/town/magician)
-"hN" = (/obj/structure/roguewindow,/turf/open/floor/rogue/woodturned,/area/rogue/indoors/town/magician)
-"hP" = (/obj/structure/closet/crate/roguecloset,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"jB" = (/obj/structure/stairs{dir = 4},/obj/machinery/light/rogue/wallfire/candle,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"kc" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/snacks/grown/apple,/obj/item/reagent_containers/food/snacks/grown/apple,/obj/item/reagent_containers/food/snacks/grown/apple,/turf/open/floor/carpet/stellar,/area/rogue/indoors/town/magician)
-"kg" = (/obj/structure/bed/rogue/inn/wool,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"lO" = (/obj/structure/chair/wood/rogue/fancy{dir = 8},/turf/open/floor/carpet/stellar,/area/rogue/indoors/town/magician)
-"ns" = (/obj/structure/table/wood{dir = 10; icon_state = "tablewood2"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"nK" = (/obj/machinery/light/rogue/wallfire/candle,/turf/open/floor/carpet/stellar,/area/rogue/indoors/town/magician)
-"nM" = (/turf/open/transparent/openspace,/area/rogue/outdoors/town)
-"oP" = (/obj/machinery/light/rogue/wallfire/candle/r,/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/town/magician)
-"pb" = (/obj/structure/fluff/clock{desc = "Something's off about this clock, you can't quite put your finger on it.."},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/town/magician)
-"qQ" = (/turf/closed/wall/mineral/rogue/stone/moss,/area/rogue/outdoors/town)
-"re" = (/turf/open/floor/carpet/stellar,/area/rogue/indoors/town/magician)
-"rh" = (/obj/structure/table/wood{dir = 10; icon_state = "tablewood2"},/obj/machinery/light/rogue/wallfire/candle/blue/l,/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/town/magician)
-"rv" = (/turf/open/floor/rogue/rooftop/green{dir = 8},/area/rogue/outdoors/town)
-"rG" = (/turf/open/transparent/openspace,/area/rogue/outdoors/town/roofs)
-"rV" = (/obj/structure/fluff/walldeco/stone{pixel_y = 32},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"tA" = (/turf/open/floor/carpet/purple,/area/rogue/under/town/basement)
-"uH" = (/turf/closed/wall/mineral/rogue/stone/moss,/area/rogue/under/town/basement)
-"vy" = (/obj/machinery/light/rogue/wallfire/candle/blue/r,/obj/structure/table/wood{dir = 1; icon_state = "tablewood1"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"vP" = (/obj/structure/roguemachine/mail/l{mailtag = "Court Wizard"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"vY" = (/turf/open/floor/carpet/royalblack,/area/rogue/indoors/town/magician)
-"wO" = (/obj/structure/roguewindow/openclose{dir = 4},/turf/open/floor/rogue/woodturned,/area/rogue/indoors/town/magician)
-"wR" = (/obj/machinery/light/rogue/firebowl/standing/blue,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"xC" = (/obj/structure/mineral_door/wood{icon_state = "wcv"; lockdiff = 3; locked = 1; lockid = "tower"; name = "Wizard's Tower"},/turf/open/floor/rogue/blocks,/area/rogue/indoors/town/magician)
-"xP" = (/turf/open/transparent/openspace,/area/rogue/indoors/town/magician)
-"yu" = (/obj/structure/closet/crate/drawer{pixel_y = 16},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"yH" = (/obj/structure/fluff/statue/gargoyle/moss,/turf/open/floor/rogue/cobble,/area/rogue/outdoors/town/roofs)
-"zE" = (/turf/closed/wall/mineral/rogue/stone,/area/rogue/outdoors/town)
-"zF" = (/obj/structure/table/wood{dir = 1; icon_state = "longtable"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"Av" = (/turf/open/floor/rogue/cobble,/area/rogue/outdoors/town/roofs)
-"Be" = (/obj/structure/bookcase,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"BI" = (/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/under/town/basement)
-"Ca" = (/turf/open/floor/carpet/purple,/area/rogue/indoors/town/magician)
-"Dn" = (/obj/structure/closet/crate/chest{lockid = "keep_armory"},/obj/machinery/light/rogue/wallfire/candle/r,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"Ew" = (/obj/structure/mineral_door/wood{icon_state = "wcv"; locked = 1; lockid = "tower"},/turf/open/floor/rogue/blocks,/area/rogue/indoors/town/magician)
-"Ge" = (/obj/structure/table/wood{icon_state = "longtable"},/obj/item/candle/yellow/lit,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"Gn" = (/obj/structure/table/wood{dir = 10; icon_state = "tablewood2"},/obj/machinery/light/rogue/wallfire/candle/blue,/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/town/magician)
-"GC" = (/obj/structure/closet/crate/chest{lockid = "keep_armory"; name = "leech chest"},/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/town/magician)
-"Hn" = (/obj/structure/mineral_door/wood{locked = 1; lockid = "tower"},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/town/magician)
-"Hv" = (/obj/machinery/light/rogue/firebowl,/turf/open/floor/rogue/ruinedwood,/area/rogue/outdoors/town)
-"HG" = (/obj/machinery/light/rogue/wallfire/candle/blue,/turf/open/floor/carpet/royalblack,/area/rogue/indoors/town/magician)
-"IC" = (/obj/machinery/light/rogue/wallfire/candle/blue/r,/turf/open/floor/carpet/purple,/area/rogue/indoors/town/magician)
-"IM" = (/obj/structure/stairs,/turf/open/floor/rogue/ruinedwood{icon_state = "vertw"},/area/rogue/indoors/town/magician)
-"IV" = (/obj/structure/chair/wood/rogue{dir = 1},/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/town/magician)
-"Jf" = (/obj/machinery/light/rogue/firebowl/standing/blue,/turf/open/floor/rogue/wood,/area/rogue/indoors/town/magician)
-"Jk" = (/obj/structure/table/wood{icon_state = "tablewood1"},/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue/indoors/town/magician)
-"Jz" = (/obj/machinery/light/rogue/wallfire/candle/r,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"Ku" = (/obj/machinery/light/rogue/oven/west,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue/indoors/town/magician)
-"KM" = (/turf/closed/wall/mineral/rogue/stone,/area/rogue/under/town/basement)
-"Lr" = (/obj/structure/mineral_door/wood{icon_state = "wcv"; locked = 1; lockid = "tower"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"Ow" = (/turf/open/dark_filler,/area/rogue/outdoors)
-"Qs" = (/obj/structure/stairs,/turf/open/floor/rogue/ruinedwood{icon_state = "vertw"},/area/rogue/under/town/basement)
-"Rc" = (/obj/structure/mineral_door/wood{icon_state = "wcv"; locked = 1; lockid = "mage"},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/town/magician)
-"RI" = (/turf/open/floor/rogue/wood,/area/rogue/indoors/town/magician)
-"Si" = (/obj/structure/closet/crate/roguecloset,/turf/open/floor/rogue/wood,/area/rogue/indoors/town/magician)
-"Sj" = (/turf/open/floor/rogue/rooftop,/area/rogue/outdoors/town/roofs)
-"Sv" = (/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/town/magician)
-"SB" = (/obj/structure/stairs{dir = 4},/turf/open/floor/rogue/ruinedwood{icon_state = "vertw"},/area/rogue/indoors/town/magician)
-"TJ" = (/turf/open/floor/rogue/rooftop/green,/area/rogue/outdoors/town)
-"Ul" = (/obj/structure/closet/crate/chest{lockid = "keep_armory"},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/town/magician)
-"UO" = (/obj/structure/chair/wood/rogue/fancy{dir = 4},/turf/open/floor/carpet/stellar,/area/rogue/indoors/town/magician)
-"Wq" = (/obj/structure/roguewindow/openclose{dir = 1},/turf/open/floor/rogue/woodturned,/area/rogue/indoors/town/magician)
-"WE" = (/obj/structure/chair/wood/rogue,/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/town/magician)
-"Xj" = (/obj/structure/bed/rogue/inn/wool,/obj/item/bedsheet/rogue/fabric,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/town/magician)
-"Yo" = (/turf/closed/wall/mineral/rogue/wooddark,/area/rogue/under/town/basement)
-"ZF" = (/turf/closed/wall/mineral/rogue/stone,/area/rogue/outdoors/town/roofs)
+"af" = (/obj/structure/closet/crate/chest{lockid = "keep_armory"},/obj/machinery/light/rogue/wallfire/candle/blue/r,/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"au" = (/obj/structure/mineral_door/wood{icon_state = "wcv"; lockdiff = 3; locked = 1; lockid = "mage"},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"aU" = (/turf/open/floor/rogue/blocks,/area/rogue/indoors/inbetween)
+"cj" = (/obj/machinery/light/rogue/wallfire/candle/blue,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"ck" = (/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"cv" = (/turf/open/dark_filler,/area/rogue/indoors/inbetween/magos)
+"dk" = (/obj/structure/fluff/railing/border{dir = 1},/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/inbetween/magos)
+"dw" = (/obj/structure/fluff/walldeco/stone{pixel_y = 32},/turf/open/floor/carpet/royalblack,/area/rogue/indoors/inbetween/magos)
+"ec" = (/obj/structure/bookcase,/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"ey" = (/turf/closed/wall/mineral/rogue/stone,/area/rogue/indoors/inbetween)
+"eV" = (/obj/structure/roguemachine/scomm,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"fu" = (/obj/machinery/light/rogue/hearth,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue/indoors/inbetween/magos)
+"fD" = (/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"fH" = (/obj/structure/stairs{dir = 4},/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/inbetween/magos)
+"hN" = (/obj/structure/roguewindow,/turf/open/floor/rogue/woodturned,/area/rogue/indoors/inbetween/magos)
+"hP" = (/obj/structure/closet/crate/roguecloset,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"iG" = (/obj/item/paper{info = "Nyeheh :3"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"jB" = (/obj/structure/stairs{dir = 4},/obj/machinery/light/rogue/wallfire/candle,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"kc" = (/obj/structure/table/wood,/obj/item/reagent_containers/food/snacks/grown/apple,/obj/item/reagent_containers/food/snacks/grown/apple,/obj/item/reagent_containers/food/snacks/grown/apple,/turf/open/floor/carpet/stellar,/area/rogue/indoors/inbetween/magos)
+"kg" = (/obj/structure/bed/rogue/inn/wool,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"lF" = (/obj/structure/fluff/turfteleport{aportalgoesto = "magosf1"; aportalid = "northbed2"},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"lO" = (/obj/structure/chair/wood/rogue/fancy{dir = 8},/turf/open/floor/carpet/stellar,/area/rogue/indoors/inbetween/magos)
+"ns" = (/obj/structure/table/wood{dir = 10; icon_state = "tablewood2"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"nA" = (/obj/structure/fluff/turfteleport{aportalid = "magosf1"; aportalgoesto = null},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"nK" = (/obj/machinery/light/rogue/wallfire/candle,/turf/open/floor/carpet/stellar,/area/rogue/indoors/inbetween/magos)
+"nM" = (/turf/open/transparent/openspace,/area/rogue/indoors/inbetween)
+"oP" = (/obj/machinery/light/rogue/wallfire/candle/r,/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/inbetween/magos)
+"oT" = (/obj/structure/mineral_door/wood{icon_state = "wcv"; locked = 1; lockid = "mage"},/turf/closed/wall/mineral/rogue/stone,/area/rogue/indoors/inbetween/magos)
+"pb" = (/obj/structure/fluff/clock{desc = "Something's off about this clock, you can't quite put your finger on it.."},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"qQ" = (/turf/closed/wall/mineral/rogue/stone/moss,/area/rogue/indoors/inbetween)
+"re" = (/turf/open/floor/carpet/stellar,/area/rogue/indoors/inbetween/magos)
+"rh" = (/obj/structure/table/wood{dir = 10; icon_state = "tablewood2"},/obj/machinery/light/rogue/wallfire/candle/blue/l,/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"rv" = (/turf/closed/wall/mineral/rogue/stone,/area/rogue/indoors/inbetween/magos)
+"rV" = (/obj/structure/fluff/walldeco/stone{pixel_y = 32},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"sB" = (/obj/structure/table/wood{dir = 1; icon_state = "tablewood1"},/obj/machinery/light/rogue/wallfire/candle/blue/r,/turf/open/floor/carpet/royalblack,/area/rogue/indoors/inbetween/magos)
+"ue" = (/obj/structure/closet/crate/drawer{pixel_y = 16},/turf/open/floor/carpet/purple,/area/rogue/indoors/inbetween/magos)
+"vy" = (/obj/machinery/light/rogue/wallfire/candle/blue/r,/obj/structure/table/wood{dir = 1; icon_state = "tablewood1"},/obj/structure/fluff/traveltile/silent/inbetweenmagos{aportalgoesto = "realitymagos"; aportalid = "inbetweenmagos"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"vP" = (/obj/structure/roguemachine/mail/l{mailtag = "Court Wizard"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"vY" = (/turf/open/floor/carpet/royalblack,/area/rogue/indoors/inbetween/magos)
+"wO" = (/obj/structure/roguewindow/openclose{dir = 4},/turf/open/floor/rogue/woodturned,/area/rogue/indoors/inbetween/magos)
+"wR" = (/obj/machinery/light/rogue/firebowl/standing/blue,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"xC" = (/obj/structure/mineral_door/wood{icon_state = "wcv"; lockdiff = 3; locked = 1; lockid = "tower"; name = "Wizard's Tower"},/turf/open/floor/rogue/blocks,/area/rogue/indoors/inbetween/magos)
+"xW" = (/obj/structure/fluff/turfteleport{aportalid = "carpetroom2"; aportalgoesto = null},/turf/open/floor/carpet/purple,/area/rogue/indoors/inbetween/magos)
+"yu" = (/obj/structure/closet/crate/drawer{pixel_y = 16},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"yH" = (/obj/structure/fluff/statue/gargoyle/moss,/turf/open/floor/rogue/cobble,/area/rogue/indoors/inbetween/magos)
+"zF" = (/obj/structure/table/wood{dir = 1; icon_state = "longtable"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"Av" = (/turf/open/floor/rogue/cobble,/area/rogue/indoors/inbetween/magos)
+"Be" = (/obj/structure/bookcase,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"BI" = (/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/inbetween/magos)
+"BV" = (/obj/machinery/light/rogue/wallfire/candle,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"Ca" = (/turf/open/floor/carpet/purple,/area/rogue/indoors/inbetween/magos)
+"Dn" = (/obj/structure/closet/crate/chest{lockid = "keep_armory"},/obj/machinery/light/rogue/wallfire/candle/r,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"Ew" = (/obj/structure/mineral_door/wood{icon_state = "wcv"; locked = 1; lockid = "tower"},/turf/open/floor/rogue/blocks,/area/rogue/indoors/inbetween/magos)
+"Ge" = (/obj/structure/table/wood{icon_state = "longtable"},/obj/item/candle/yellow/lit,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"Gi" = (/obj/structure/fluff/turfteleport{aportalid = "fakeprentice2"; aportalgoesto = null},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"Gn" = (/obj/structure/table/wood{dir = 10; icon_state = "tablewood2"},/obj/machinery/light/rogue/wallfire/candle/blue,/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/inbetween/magos)
+"GC" = (/obj/structure/closet/crate/chest{lockid = "keep_armory"; name = "leech chest"},/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/inbetween/magos)
+"Hn" = (/obj/structure/mineral_door/wood{locked = 1; lockid = "tower"},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"Hv" = (/obj/structure/roguewindow/openclose{dir = 1; currently_opened = TRUE; base_state = "sliding-moonlight"},/turf/open/floor/rogue/woodturned,/area/rogue/indoors/inbetween/magos)
+"HG" = (/obj/machinery/light/rogue/wallfire/candle/blue,/turf/open/floor/carpet/royalblack,/area/rogue/indoors/inbetween/magos)
+"IC" = (/obj/machinery/light/rogue/wallfire/candle/blue/r,/turf/open/floor/carpet/purple,/area/rogue/indoors/inbetween/magos)
+"IV" = (/obj/structure/chair/wood/rogue{dir = 1},/turf/open/floor/rogue/tile{icon_state = "greenstone"},/area/rogue/indoors/inbetween/magos)
+"Jf" = (/obj/machinery/light/rogue/firebowl/standing/blue,/turf/open/floor/rogue/wood,/area/rogue/indoors/inbetween/magos)
+"Jk" = (/obj/structure/table/wood{icon_state = "tablewood1"},/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue/indoors/inbetween/magos)
+"Jv" = (/obj/structure/fluff/turfteleport{aportalgoesto = "fakeprentice2"; aportalid = "fakeprentice1"},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"Jz" = (/obj/machinery/light/rogue/wallfire/candle/r,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"Ku" = (/obj/machinery/light/rogue/oven/west,/turf/open/floor/rogue/ruinedwood{icon_state = "weird1"},/area/rogue/indoors/inbetween/magos)
+"La" = (/obj/structure/roguewindow/openclose{dir = 1; currently_opened = TRUE},/obj/structure/fluff/turfteleport{aportalid = "magosbed2"; aportalgoesto = null},/turf/open/floor/rogue/woodturned,/area/rogue/indoors/inbetween/magos)
+"Lj" = (/obj/structure/fluff/turfteleport{aportalid = "carpetroom3"; aportalgoesto = "magebed1"},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"Lr" = (/obj/structure/mineral_door/wood{icon_state = "wcv"; locked = 1; lockid = "tower"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"NF" = (/obj/structure/roguewindow/openclose{dir = 1},/turf/open/floor/rogue/woodturned,/area/rogue/indoors/inbetween/magos)
+"NJ" = (/turf/closed/wall/mineral/rogue/stone/moss,/area/rogue/indoors/inbetween/magos)
+"Os" = (/obj/structure/fluff/turfteleport{aportalid = "magebed1"; aportalgoesto = null},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"Ow" = (/turf/open/dark_filler,/area/rogue/indoors/inbetween)
+"Qi" = (/obj/structure/closet/crate/roguecloset,/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"Qs" = (/obj/structure/stairs,/turf/open/floor/rogue/ruinedwood{icon_state = "vertw"},/area/rogue/indoors/inbetween/magos)
+"QL" = (/obj/item/paper{info = "Behind mew! :3"},/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"Rc" = (/obj/structure/mineral_door/wood{icon_state = "wcv"; locked = 1; lockid = "mage"},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"RI" = (/turf/open/floor/rogue/wood,/area/rogue/indoors/inbetween/magos)
+"Si" = (/obj/structure/closet/crate/roguecloset,/turf/open/floor/rogue/wood,/area/rogue/indoors/inbetween/magos)
+"Sj" = (/turf/open/floor/rogue/rooftop,/area/rogue/indoors/inbetween)
+"SB" = (/obj/structure/stairs{dir = 4},/turf/open/floor/rogue/ruinedwood{icon_state = "vertw"},/area/rogue/indoors/inbetween/magos)
+"SO" = (/obj/structure/bed/rogue/inn/wool,/obj/item/bedsheet/rogue/fabric,/turf/open/floor/carpet/purple,/area/rogue/indoors/inbetween/magos)
+"TJ" = (/turf/open/transparent/openspace,/area/rogue/indoors/inbetween/magos)
+"Ul" = (/obj/structure/closet/crate/chest{lockid = "keep_armory"},/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"UO" = (/obj/structure/chair/wood/rogue/fancy{dir = 4},/turf/open/floor/carpet/stellar,/area/rogue/indoors/inbetween/magos)
+"Wq" = (/obj/structure/roguewindow/openclose{dir = 1},/obj/structure/fluff/turfteleport{aportalid = "magosbed1"; aportalgoesto = "magosbed2"},/turf/open/floor/rogue/woodturned,/area/rogue/indoors/inbetween/magos)
+"WE" = (/obj/structure/chair/wood/rogue,/turf/open/floor/rogue/ruinedwood{icon_state = "horzw"},/area/rogue/indoors/inbetween/magos)
+"Xj" = (/obj/structure/bed/rogue/inn/wool,/obj/item/bedsheet/rogue/fabric,/turf/open/floor/rogue/ruinedwood,/area/rogue/indoors/inbetween/magos)
+"Yo" = (/turf/closed/wall/mineral/rogue/wooddark,/area/rogue/indoors/inbetween/magos)
+"YV" = (/obj/structure/fluff/turfteleport{aportalgoesto = "carpetroom2"; aportalid = "carpetroom1"},/turf/open/floor/carpet/purple,/area/rogue/indoors/inbetween/magos)
 
 (1,1,1) = {"
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
@@ -178,19 +189,19 @@ OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHuHuHuHuHuHuHuHuHuHuHuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHuHuHececececececuHuHuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHuHecBIBIBIBIBIBIecuHuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHecBItAtAtAtAtAtABIecuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHecBItAKMBIKMtAtABIecuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHecBItAKMQsKMtAtABIecuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHecBItAKMYoKMtAtABIecuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHecBItAKMKMKMtAtABIecuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHecBItAtAtAtAtAtABIecuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHecBItAtAtAtAtAtABIecuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHuHecBIBIBIBIBIBIecuHuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHuHuHececececececuHuHuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwuHuHuHuHuHuHuHuHuHuHuHuHOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQqQNJNJNJNJNJNJNJNJqQqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQNJNJececececececNJNJqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQNJecBIBIBIBIBIBIecNJqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQecBICaCaCaCaCaCaBIecqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQecBICarvBIrvCaCaBIecqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQecBICarvQsrvCaCaBIecqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQecBICarvYorvCaCaBIecqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQecBICarvrvrvCaCaBIecqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQecBICaCaCaCaCaCaBIecqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQecBICaCaCaCaCaCaBIecqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQNJecBIBIBIBIBIBIecNJqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQNJNJececececececNJNJqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwqQqQqQNJNJNJNJNJNJNJqQqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
@@ -258,17 +269,17 @@ OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwaUeyeyeyeyeyeyeyeyeyzEOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyeyeyclclclclcleyeyzEOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyeyclxPclclclclcleyzEOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyclclIMclclwReVfDKuzEOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwxCSvSvSvfHclvPfDfDJkzEOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyrereSvdkclfDfDfDJkzEOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyrereSvSvcjfDfDfDfuzEOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweySiRIRIRIRIRIRIJfeyqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyeySirerererereeyeyqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyeyeyreUOkclOeyeyeyqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMnMzEzEzEzEzEzEzEqQqQOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwaUrvrvrvrvrvrvrvrvrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvrvYoYoYoYoYorvrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvYoTJYoYoYoYoYorvrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvYoYoQsYoYowReVfDKurvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwxCBIBIBIfHYovPfDfDJkrvrvNJOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrereBIdkYofDfDfDJkrviGNJOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrereBIBIcjfDfDfDfurvfDNJOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvSiRIRIRIRIRIRIJfrvNJfDNJOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvSirererererervrvrvfDNJOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvrvreUOkclOreoTfDnAfDNJOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMnMrvrvrvrvrvrvYoYoYoYoYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
@@ -335,14 +346,14 @@ OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrGrGrGeyeyeyeyeyeyZFOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrGrGeyeySvSvSvfDfDZFOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrGrGeyGnSvSvSBclLrZFOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrGrGeyIVSvclclclfDZFOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwyHAvEwSvoPclxPSBJzZFOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrGrGeyrereclclclclZFOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrGrGeyrerereGCclclZFOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwZFZFZFZFZFZFZFZFZFZFOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMnMTJrvrvrvrvrvrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMnMrvrvBIBIBIfDfDrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMnMrvGnBIBISBYoLrrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMnMrvIVBIYoYoYofDrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwyHAvEwBIoPYoTJSBJzrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMnMrvrereYoYoYoYorvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMnMrvrerereGCYoYorvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyeyrvrvrvrvrvrvrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
@@ -406,32 +417,32 @@ OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMnMeyeyeyeyeyhNeyeyeyeyafTJOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMeyeyUlfDrVHGvYvYvYvyeyeyTJOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyeyckckfDclclclclclclcleyeyOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyWECaCaCaclclxPjBfDclfDkgeyOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyrhCaCaCaclclclfDfDclfDkgeyOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweypbCaICclclclclauclclfDDneyOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwwOckCaCaRcfDfDcjfDfDHnfDBeeyOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyUlCaCaclfDfDfDGezFclfDhPeyOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyUlckclclclRcclclclclclcleyOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOweyeyclclyurererenKrefDBeeyeyOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwHveyeyclXjrererereUOnseyeySjOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrveyeyeyWqeyeyeyWqeyeySjSjOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
-OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvrvrvrvrvrvrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwRccklFckOsckckafYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvYoYoYoYoYockecYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvueCaCaCaHnGiQiYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvSOCaCaCaYoYoYoYoOwOwYoYoYoYorvfDfDfDrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMnMrvrvrvrvrvhNrvrvrvrvOwOwYoCaCaCarvrvrvrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwnMrvrvUlfDrVHGvYvYvYvyrvrvOwYoCaCaxWckLjckafYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvckckfDYoYoYoYoYoYoYorvrvYoYoYoauYoYockecYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvWECaCaCaYoYoTJjBfDYofDkgrvYoYoYoRcYoYoYoYoYoYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrhCaCaCaYoYoYofDfDYofDkgrvYoyurererenKrefDBervOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvpbCaICYoYoYoYoauYoYofDDnrvYoXjrererereUOnsrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwwOckCaCaRcfDfDcjfDfDHnfDBervrvrvHvrvrvrvLarvrvSjOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvUlCaCaYofDfDfDGezFYofDhPrvOwOwOwOwrvfDfDfDrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvUlckYoYoYoRcYoYoYoYoYoYorvOwOwOwOwrvfDQLfDrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvYoYoyurererenKrefDBervrvOwOwOwOwrvrvrvrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvYoXjrererereUOnsrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvrvrvrvNFrvrvrvWqrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvUlfDdwHGvYsBrvfDfDfDrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvckckfDYoYoYoYorvfDQLfDrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvWECaCaCaYoCaCaCarvrvrvrvrvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrhCaCaCaYoCaCaYVckckckafYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvpbCaICYoYoYoYoauYoYockecYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwwOckCaCaRcfDfDBVfDfDHnJvQiYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvUlCaCaYofDfDfDGezFYoYoYoYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvUlckYoYoYoRcYoYoYoYoOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
+OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwrvrvYoYocvOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw
 OwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOwOw

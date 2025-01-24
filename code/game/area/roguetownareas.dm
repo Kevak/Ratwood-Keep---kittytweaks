@@ -33,7 +33,7 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 
 /area/rogue/indoors/inbetween
 	name = "inbetween"
-	icon_state = "indoors"
+	icon_state = "inbetween"
 	ambientrain = null
 	ambientsounds = AMB_INGEN
 	ambientnight = AMB_INGEN
@@ -45,6 +45,12 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 	soundenv = 2
 	plane = INDOOR_PLANE
 	converted_type = /area/rogue/outdoors
+	first_time_text = "THE IN-BETWEEN"
+
+/area/rogue/indoors/inbetween/magos
+	name = "inbetweenmagos"
+	icon_state = "inbetween_magos"
+	first_time_text = null
 
 /area/rogue/indoors/banditcamp
 	name = "bandit camp indoors"

@@ -32589,6 +32589,10 @@
 	dir = 1;
 	icon_state = "tablewood1"
 	},
+/obj/structure/fluff/traveltile/silent/inbetweenmagos{
+	aportalgoesto = "inbetweenmagos";
+	aportalid = "realitymagos"
+	},
 /turf/open/floor/rogue/ruinedwood,
 /area/rogue/indoors/town/magician)
 "tDE" = (
