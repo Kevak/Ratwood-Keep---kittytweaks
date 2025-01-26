@@ -230,7 +230,7 @@
 //turf teles are meant for nonelucidian smoke and mirrors mapping shenanigans but have obvious other uses
 
 /obj/structure/fluff/turfteleport
-	name = ""
+	name = "turfteleport"
 	desc = ""
 	density = FALSE
 	anchored = TRUE

@@ -1,0 +1,16 @@
+{
+    "map_name": "InBetween",
+    "map_path": "map_files/otherz",
+    "map_file": "InBetween.dmm",
+
+	"traits": [
+				{"Up": true, "Baseturf": "/turf/open/transparent/openspace"},
+				{"Up": true, "Down": true, "Baseturf": "/turf/open/transparent/openspace"},
+				{"Up": true, "Down": true, "Baseturf": "/turf/open/transparent/openspace"},
+				{"Up": true, "Down": true, "Baseturf": "/turf/open/transparent/openspace"},
+				{"Up": true, "Down": true, "Baseturf": "/turf/open/transparent/openspace"},
+				{"Up": true, "Down": true, "Baseturf": "/turf/open/transparent/openspace"},
+				{"Up": true, "Down": true, "Baseturf": "/turf/open/transparent/openspace"},
+				{"Down": true, "Baseturf": "/turf/open/transparent/openspace"}
+			]
+}

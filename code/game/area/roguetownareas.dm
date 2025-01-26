@@ -34,7 +34,7 @@ GLOBAL_LIST_INIT(roguetown_areas_typecache, typecacheof(/area/rogue/indoors/town
 /area/rogue/indoors/inbetween
 	name = "inbetween"
 	icon_state = "inbetween"
-	ambientrain = null
+	ambientrain = RAIN_IN
 	ambientsounds = AMB_INGEN
 	ambientnight = AMB_INGEN
 	spookysounds = SPOOKY_GEN
